@@ -1,0 +1,36 @@
+
+  <!doctype html>
+  <html ng-app="madLibs">
+  <head>
+      <title> Mad Libs </title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+      <body >
+        <header>
+          <h1><span id="create">Create</span> <span id="your" >Your</span> <span id="own">Own</span> <span id="story">Story</span></h1>
+          <nav>
+            <a href="#!/form"> Write Your Story  </a>
+            <a href="#!/story"> View Your Story </a>
+          </nav>
+        </header>
+        <div class="container">
+            <ng-view> </ng-view>
+            <!-- <form name="form" class="form" ng-submit="storeWords(form)">
+              Place: <input ng-minlength="5" ng-maxlength="10" required="" type="text" placeholder="eg: Paris, Neverland" name="place" ng-model="form.place1"> <br>
+              <p ng-show="form.place.$error.minlength" class="help-block"> You need to type something a little longer. </p>
+              Animal: <input type="text" placeholder="eg: monkey puppy" ng-model="form.animal"> <br>
+              Name: <input type="text" placeholder="eg: Leonard, David" ng-model="form.name1"><br>
+              Food: <input type="text" placeholder="eg: chipotle, doughnuts" ng-model="form.food"><br>
+              Place: <input type="text" placeholder="eg: in the park, under the tree" ng-model="form.place2"> <br>
+              Thing: <input type="text" placeholder="eg: money, wrenches" ng-model="form.thing"> <br>
+              Name: <input type="text" placeholder="eg: Lisa, Tony" ng-model="form.name2"> <br>
+             <button type="submit"> Click me to see the story! </button>
+            </form> -->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="make-story.js"></script>
+       <script type="text/javascript" src="service.js"></script>
+      </body>
+      </html>

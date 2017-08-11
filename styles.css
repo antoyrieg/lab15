@@ -1,0 +1,57 @@
+body {
+	background-color: #0AE500;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+	color:#DDAADD;
+	word-spacing: -9px;
+}
+#create{
+	font-size: 25px;
+}
+#your{
+	font-size: 30px;
+}
+#own{
+	font-size: 35px;
+}
+#story{
+	font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 19px;
+    border-radius: 38px;
+}
+
+header.nav {
+	word-spacing:2px;
+}
+form {
+	text-align: center;
+    margin-top: 79px;
+    font-size: 18px;
+}
+
+button {
+	margin-top: 27px;
+    padding: 26px;
+    font-size: 19px;
+    background-color: #DDAADD;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 6px 7px 10px darkgreen;
+    outline: none;
+    text-shadow: 1px 1px 1px;
+    outline: none;
+    text-shadow: -1px 1px 7px;
+}
+.story{
+	margin-top: 39px;
+}
